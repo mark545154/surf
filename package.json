@@ -1,12 +1,12 @@
 {
-  "name": "gulp-start",
+  "name": "surf",
   "version": "1.0.0",
-  "description": "start gulp",
+  "description": "Лендинг про сёрфинг",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vadim Prokopchuk",
+  "author": "Mark Fominykh",
   "license": "ISC",
   "devDependencies": {
     "animate.css": "^4.1.1",
