@@ -115,6 +115,48 @@
   .serf, .holder {
     padding: 140px 0 100px;
   }
+  .title div {
+    font-size: 120px;
+  }
+  .title h3 {
+    font-size: 70px;
+  }
+  .serf__subtitle {
+    padding-right: 30px;
+    margin-top: -90px;
+  }
+  .subtitle__head {
+    font-size: 30px;
+  }
+  .headline-left {
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 90px;
+  }
+  .slider-dots__content-item img {
+    margin: 1px 3px 0 7px;
+  }
+  .slider-dots__content-row {
+    padding-bottom: 15px;
+  }
+  .slider-map .slick-current .slider-dots__content {
+    padding: 14px 25px 1px 30px;
+    width: 230px;
+  }
+  .slider-dots__circle {
+    width: 15px;
+    height: 15px;
+  }
+  .slider-dots__content::before {
+    border-bottom: 18px solid $green;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: -28px;
+    margin-left: -2px;
+  }
+  .slider-map {
+    margin: 0 15px 0 34px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -159,6 +201,28 @@
   .header__map svg {
     width: 460px;
     height: 330px;
+  }
+}
+
+@media (max-width: 650px) {
+  //  surf
+  .serf, .holder {
+    padding: 50px 0 60px;
+  }
+  .title div {
+    font-size: 100px;
+    bottom: 15px;
+  }
+  .serf__subtitle {
+    padding-right: 15px;
+    margin-top: -32px;
+  }
+  .subtitle__head {
+    font-size: 25px;
+  }
+  .headline-left {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 
