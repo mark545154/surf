@@ -20,6 +20,35 @@ $(function () {
 		prevArrow: '<img class="slider-arrows slider-arrows__left" src="../img/arrows-left.svg" alt="">',
 		nextArrow: '<img class="slider-arrows slider-arrows__right" src="../img/arrows-right.svg" alt="">',
 		asNavFor: '.slider-map',
+		responsive: [
+			{
+				breakpoint: 1290,
+				settings: {
+					centerMode: true,
+					centerPadding: '20px',
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 970,
+				settings: {
+					centerMode: true,
+					centerPadding: '10px',
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 650,
+				settings: {
+					centerMode: true,
+					centerPadding: '1px',
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},
+		]
 	});
 
 	$('.slider-map').slick({
@@ -85,6 +114,5 @@ $(function () {
 
 
 	new WOW().init();
-
 
 });
