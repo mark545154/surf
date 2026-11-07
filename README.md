@@ -11,3 +11,4 @@ This project used:
 9. Link to the GitHub project
 
 This work was done to increase the portfolio.
+Я рад, что Вас заинтересовался мой проект.
